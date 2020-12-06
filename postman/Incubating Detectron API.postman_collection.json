@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "0b846092-d7ba-408b-ab3c-61a8a762455f",
+		"name": "Incubating Detectron API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Original",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/teddybear.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"teddybear.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COCO Detection",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/coco-detection/teddybear.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"coco-detection",
+						"teddybear.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COCO Panoptic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/coco-panoptic/football2018.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"coco-panoptic",
+						"football2018.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COCO Instance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/coco-instance/bbt3.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"coco-instance",
+						"bbt3.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COCO Keypoints",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/coco-keypoints/football2018.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"coco-keypoints",
+						"football2018.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LVIS Instance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/lvis-instance/football2018.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"lvis-instance",
+						"football2018.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pascal VOC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/v2/pascal-voc/football2018.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"v2",
+						"pascal-voc",
+						"football2018.jpg"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

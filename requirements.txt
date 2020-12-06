@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+opencv-python
+cython
+fvcore
+#git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+tqdm
+fastapi
+aiofiles
+uvicorn
